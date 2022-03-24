@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable-v24/style_btn_stroke_black95_press_white.xml" value="0.2265" />
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable-v24/style_btn_stroke_white_press_white.xml" value="0.2665" />
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable/btn_back_null_press_lightpink.xml" value="0.273" />
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable/btn_easy_green_press.xml" value="0.278" />
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable/btn_gamelevels.xml" value="0.3465" />
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable/btn_playmenu.xml" value="0.278" />
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable/btn_stroke_black95_press_white.xml" value="0.2265" />
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable/btn_stroke_white_press_white.xml" value="0.2265" />
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable/example.xml" value="0.278" />
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable/style_btn.xml" value="0.273" />
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable/style_btn_back.xml" value="0.278" />
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable/style_btn_back_press.xml" value="0.273" />
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable/style_btn_black60.xml" value="0.3465" />
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable/style_btn_black95.xml" value="0.3465" />
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable/style_btn_light_gray.xml" value="0.278" />
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable/style_btn_stroke_black95.xml" value="0.2265" />
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable/style_btn_white.xml" value="0.278" />
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable/style_btn_white_press_light_gray.xml" value="0.278" />
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable/style_img_universal.xml" value="0.3465" />
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable/style_ranges.xml" value="0.3465" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout-large/universal.xml" value="0.5" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout-normal/universal.xml" value="0.290625" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout-small/universal.xml" value="1.5" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout-xlarge/universal.xml" value="0.290625" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout/easy_level.xml" value="0.33" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout/play_menu.xml" value="0.13709677419354838" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout/universal.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
