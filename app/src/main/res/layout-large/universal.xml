@@ -39,127 +39,128 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/btn_stroke_white_press_white"
                     android:text="@string/back_1"
+                    android:padding="10dp"
                     android:textAllCaps="true"
                     android:textColor="@color/white"
-                    android:textSize="24sp" />
+                    android:textSize="40sp" />
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/line2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/range1"
                     android:layout_width="wrap_content"
-                    android:layout_height="10dp"
+                    android:layout_height="20dp"
                     android:layout_weight="1"
                     android:background="@drawable/style_ranges" />
 
                 <TextView
                     android:id="@+id/range2"
                     android:layout_width="wrap_content"
-                    android:layout_height="10dp"
+                    android:layout_height="20dp"
                     android:layout_weight="1"
                     android:background="@drawable/style_ranges" />
 
                 <TextView
                     android:id="@+id/range3"
                     android:layout_width="wrap_content"
-                    android:layout_height="10dp"
+                    android:layout_height="20dp"
                     android:layout_weight="1"
                     android:background="@drawable/style_ranges" />
 
                 <TextView
                     android:id="@+id/range4"
                     android:layout_width="wrap_content"
-                    android:layout_height="10dp"
+                    android:layout_height="20dp"
                     android:layout_weight="1"
                     android:background="@drawable/style_ranges" />
 
                 <TextView
                     android:id="@+id/range5"
                     android:layout_width="wrap_content"
-                    android:layout_height="10dp"
+                    android:layout_height="20dp"
                     android:layout_weight="1"
                     android:background="@drawable/style_ranges" />
 
                 <TextView
                     android:id="@+id/range6"
                     android:layout_width="wrap_content"
-                    android:layout_height="10dp"
+                    android:layout_height="20dp"
                     android:layout_weight="1"
                     android:background="@drawable/style_ranges" />
 
                 <TextView
                     android:id="@+id/range7"
                     android:layout_width="wrap_content"
-                    android:layout_height="10dp"
+                    android:layout_height="20dp"
                     android:layout_weight="1"
                     android:background="@drawable/style_ranges" />
 
                 <TextView
                     android:id="@+id/range8"
                     android:layout_width="wrap_content"
-                    android:layout_height="10dp"
+                    android:layout_height="20dp"
                     android:layout_weight="1"
                     android:background="@drawable/style_ranges" />
 
                 <TextView
                     android:id="@+id/range9"
                     android:layout_width="wrap_content"
-                    android:layout_height="10dp"
+                    android:layout_height="20dp"
                     android:layout_weight="1"
                     android:background="@drawable/style_ranges" />
 
                 <TextView
                     android:id="@+id/range10"
                     android:layout_width="wrap_content"
-                    android:layout_height="10dp"
+                    android:layout_height="20dp"
                     android:layout_weight="1"
                     android:background="@drawable/style_ranges" />
 
                 <TextView
                     android:id="@+id/range11"
                     android:layout_width="wrap_content"
-                    android:layout_height="10dp"
+                    android:layout_height="20dp"
                     android:layout_weight="1"
                     android:background="@drawable/style_ranges" />
 
                 <TextView
                     android:id="@+id/range12"
                     android:layout_width="wrap_content"
-                    android:layout_height="10dp"
+                    android:layout_height="20dp"
                     android:layout_weight="1"
                     android:background="@drawable/style_ranges" />
 
                 <TextView
                     android:id="@+id/range13"
                     android:layout_width="wrap_content"
-                    android:layout_height="10dp"
+                    android:layout_height="20dp"
                     android:layout_weight="1"
                     android:background="@drawable/style_ranges" />
 
                 <TextView
                     android:id="@+id/range14"
                     android:layout_width="wrap_content"
-                    android:layout_height="10dp"
+                    android:layout_height="20dp"
                     android:layout_weight="1"
                     android:background="@drawable/style_ranges" />
 
                 <TextView
                     android:id="@+id/range15"
                     android:layout_width="wrap_content"
-                    android:layout_height="10dp"
+                    android:layout_height="20dp"
                     android:layout_weight="1"
                     android:background="@drawable/style_ranges" />
 
                 <TextView
                     android:id="@+id/range16"
                     android:layout_width="wrap_content"
-                    android:layout_height="10dp"
+                    android:layout_height="20dp"
                     android:layout_weight="1"
                     android:background="@drawable/style_ranges" />
             </LinearLayout>
@@ -168,13 +169,13 @@
                 android:id="@+id/line3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/img_left"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="500dp"
                     android:layout_marginRight="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/style_img_universal"
@@ -184,8 +185,7 @@
                 <ImageView
                     android:id="@+id/img_right"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-
+                    android:layout_height="500dp"
                     android:layout_weight="1"
                     android:background="@drawable/style_img_universal"
                     android:scaleType="centerCrop"
