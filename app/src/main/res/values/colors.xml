@@ -8,4 +8,7 @@
     <color name="black95">#95000000</color>
     <color name="light_gray">#ebebeb</color>
     <color name="black60">#60000000</color>
+    <color name="black30">#30000000</color>
+    <color name="light_red">#ffcccb</color>
+    <color name="red">#f70d1a</color>
 </resources>

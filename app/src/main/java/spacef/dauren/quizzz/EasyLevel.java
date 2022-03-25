@@ -48,4 +48,13 @@ public class EasyLevel extends AppCompatActivity {
         // Button to go to the first level - end
 
     }
+
+    // Customizing the system button "Back" - start
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(EasyLevel.this, PlayMenu.class);
+        startActivity(intent);
+        finish();
+    }
+    // Customizing the system button "Back" - end
 }

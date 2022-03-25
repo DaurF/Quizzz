@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_background"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/preview_background_1"
+    android:layout_gravity="center"
+    android:scaleType="centerCrop"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/btn_close"
+            android:text="X"
+            android:textStyle="bold"
+            android:layout_width="40dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:layout_gravity="end"
+            android:background="@drawable/btn_stroke_white_press_white"
+            android:layout_height="40dp">
+        </TextView>
+        <ImageView
+            android:layout_width="1000dp"
+            android:layout_height="0dp"
+            android:id="@+id/preview_img"
+            android:src="@drawable/preview_img_1"
+            android:layout_weight="60"
+            android:layout_marginTop="5dp">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/text_description"
+            android:text="@string/level_one"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="25">
+        </TextView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/btn_continue"
+            android:background="@drawable/btn_stroke_white_press_white"
+            android:layout_weight="10"
+            android:text="@string/text_continue"
+            android:textSize="24sp"
+            android:paddingHorizontal="15dp"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
