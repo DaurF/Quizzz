@@ -1,7 +1,5 @@
 package spacef.dauren.quizzz;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Color;
@@ -17,9 +15,11 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.util.Random;
 
-public class EasyLevel1 extends AppCompatActivity {
+public class EasyLevel2 extends AppCompatActivity {
 
     private Button button_back;
     Dialog dialog;
@@ -55,7 +55,7 @@ public class EasyLevel1 extends AppCompatActivity {
 
 
         // Calling a dialog box when the user presses the back button - start
-        dialogBack = new Dialog(EasyLevel1.this);
+        dialogBack = new Dialog(EasyLevel2.this);
         dialogBack.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialogBack.setContentView(R.layout.previewdialog_back);
         dialogBack.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
@@ -81,7 +81,7 @@ public class EasyLevel1 extends AppCompatActivity {
                 // Handling a button click - start
                 try {
                     // Go back to level selection - start
-                    Intent intent = new Intent(EasyLevel1.this, EasyLevel.class);
+                    Intent intent = new Intent(EasyLevel2.this, EasyLevel.class);
                     startActivity(intent);
                     finish();
                     // Go back to level selection - end
@@ -103,7 +103,7 @@ public class EasyLevel1 extends AppCompatActivity {
 
 
         // Calling a dialog box when the user passes the level - start
-        dialogEnd = new Dialog(EasyLevel1.this);
+        dialogEnd = new Dialog(EasyLevel2.this);
         dialogEnd.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialogEnd.setContentView(R.layout.dialog_end);
         dialogEnd.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
@@ -114,7 +114,7 @@ public class EasyLevel1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(EasyLevel1.this, EasyLevel.class);
+                    Intent intent = new Intent(EasyLevel2.this, EasyLevel.class);
                     startActivity(intent);
                     finish();
                 } catch(Exception e) { /* EMPTY */}
@@ -127,7 +127,7 @@ public class EasyLevel1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(EasyLevel1.this, EasyLevel2.class);
+                    Intent intent = new Intent(EasyLevel2.this, EasyLevel2.class);
                     startActivity(intent);
                     finish();
                 } catch(Exception e) {/* EMPTY */}
@@ -143,6 +143,16 @@ public class EasyLevel1 extends AppCompatActivity {
         dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT)); // Transparent dialog box background
         dialog.setCancelable(false); // Window cannot be closed with system button "Back"
 
+        // Set image to dialog box - start
+        ImageView preview_img = (ImageView)dialog.findViewById(R.id.preview_img);
+        preview_img.setImageResource(R.drawable.previewimgtwo);
+        // Set image to dialog box - end
+
+        // Set text to dialog box - start
+        TextView text_description = (TextView)dialog.findViewById(R.id.text_description);
+        text_description.setText(R.string.level_two);
+        // Set text to dialog box - end
+
         // Button that closes the dialog box - start
         TextView btn_close = (TextView)dialog.findViewById(R.id.btn_close);
         btn_close.setOnClickListener(new View.OnClickListener() {
@@ -151,7 +161,7 @@ public class EasyLevel1 extends AppCompatActivity {
                 // Handling a button click - start
                 try {
                     // Go back to level selection - start
-                    Intent intent = new Intent(EasyLevel1.this, EasyLevel.class); // Created a transition intent
+                    Intent intent = new Intent(EasyLevel2.this, EasyLevel.class); // Created a transition intent
                     startActivity(intent); // Start intention
                     finish(); // Close this class
                     // Go back to level selection - end
@@ -189,7 +199,7 @@ public class EasyLevel1 extends AppCompatActivity {
         // Array for game progress - end
 
         // Connect animation - start
-        final Animation a = AnimationUtils.loadAnimation(EasyLevel1.this, R.anim.alpha);
+        final Animation a = AnimationUtils.loadAnimation(EasyLevel2.this, R.anim.alpha);
         // Connect animation - end
 
         numLeft = random.nextInt(10); // Generating random number from 0 to 9

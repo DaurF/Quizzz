@@ -29,8 +29,10 @@
         <entry key="..\:/AndroidProject/app/src/main/res/drawable/style_btn_white_press_light_gray.xml" value="0.278" />
         <entry key="..\:/AndroidProject/app/src/main/res/drawable/style_img_universal.xml" value="0.3465" />
         <entry key="..\:/AndroidProject/app/src/main/res/drawable/style_ranges.xml" value="0.3465" />
+        <entry key="..\:/AndroidProject/app/src/main/res/drawable/style_ranges_green.xml" value="0.3245" />
         <entry key="..\:/AndroidProject/app/src/main/res/layout-large/universal.xml" value="0.5" />
         <entry key="..\:/AndroidProject/app/src/main/res/layout-normal/universal.xml" value="0.290625" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout-small/dialog_end.xml" value="0.306140350877193" />
         <entry key="..\:/AndroidProject/app/src/main/res/layout-small/universal.xml" value="1.5" />
         <entry key="..\:/AndroidProject/app/src/main/res/layout-xlarge/universal.xml" value="0.290625" />
         <entry key="..\:/AndroidProject/app/src/main/res/layout/activity_main.xml" value="0.33" />

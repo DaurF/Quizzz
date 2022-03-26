@@ -16,4 +16,17 @@ public class Array {
             R.drawable.levelone_nine,
     };
     // Array for the second level - end
+
+    public int[] images2 = {
+            R.drawable.leveltwo_one,
+            R.drawable.leveltwo_two,
+            R.drawable.leveltwo_three,
+            R.drawable.leveltwo_four,
+            R.drawable.leveltwo_five,
+            R.drawable.leveltwo_six,
+            R.drawable.leveltwo_seven,
+            R.drawable.leveltwo_eight,
+            R.drawable.leveltwo_nine,
+            R.drawable.leveltwo_ten,
+    };
 }

@@ -33,8 +33,8 @@ public class EasyLevel extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         // Button to go to the first level - start
-        TextView tv = (TextView)findViewById(R.id.TextView1);
-        tv.setOnClickListener(new View.OnClickListener() {
+        TextView tv1 = (TextView)findViewById(R.id.TextView1);
+        tv1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 try {
@@ -46,6 +46,20 @@ public class EasyLevel extends AppCompatActivity {
             }
         });
         // Button to go to the first level - end
+
+        // Button to go to the second level - start
+        TextView tv2 = (TextView)findViewById(R.id.TextView2);
+        tv2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    Intent intent = new Intent(EasyLevel.this, EasyLevel2.class);
+                    startActivity(intent);
+                    finish();
+                } catch(Exception e) { /* EMPTY */}
+            }
+        });
+        // Button to go to the second level - end
 
     }
 

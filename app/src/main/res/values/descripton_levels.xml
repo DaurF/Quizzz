@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="level_one">Choose the number that is greater.\nScore 16 points to pass. For 1 correct answer you get 1 point, for 1 wrong answer 2 points are taken away. </string>
+    <string name="level_one">"Choose the number that is greater.\nScore 16 points to pass. For 1 correct answer you get 1 point, for 1 wrong answer 2 points are taken away."</string>
+    <string name="level_one_end">"Congratulations, you've completed the stage!"</string>
+    <string name="level_two">"Choose the roman number that is greater.\nScore 16 points to pass. For 1 correct answer you get 1 point, for 1 wrong answer 2 points are taken away."</string>
 </resources>
